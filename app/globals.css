@@ -136,6 +136,7 @@ body {
     overflow: hidden;
   }
 
+
   .project-card::before {
     content: "";
     position: absolute;
