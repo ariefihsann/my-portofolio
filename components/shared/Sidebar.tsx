@@ -15,6 +15,7 @@ const translations = {
     ID: {
         status: "Americano Coffee Lover",
         downloadCv: "Download CV",
+        cvPath: "/CV_ArifMuhammadIhsann.pdf", // File CV Bahasa Indonesia
         nav: [
             { name: "Beranda", path: "/", icon: Home },
             { name: "Tentang", path: "/tentang", icon: User },
@@ -26,6 +27,7 @@ const translations = {
     US: {
         status: "Building Cool Stuff",
         downloadCv: "Download CV",
+        cvPath: "/CV_ArifMuhammadIhsan(eng).pdf", // File CV Bahasa Inggris
         nav: [
             { name: "Home", path: "/", icon: Home },
             { name: "About", path: "/tentang", icon: User },
@@ -162,7 +164,7 @@ export function Sidebar() {
                 {/* Tombol Download CV */}
                 <div className="mt-auto pt-6 px-1">
                     <a
-                        href="/CV_ArifMuhammadIhsan.pdf"
+                        href={translations[language].cvPath}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center justify-center gap-2.5 w-full px-4 py-3 rounded-xl border border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 text-[14px] font-semibold text-zinc-700 dark:text-zinc-200 hover:bg-black/10 dark:hover:bg-white/10 hover:border-black/20 dark:hover:border-white/20 transition-all duration-200 shadow-sm"
