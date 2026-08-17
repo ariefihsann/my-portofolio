@@ -229,7 +229,7 @@ const baseProjects: Omit<Project, 'title' | 'description'>[] = [
         tags: ["Figma"],
         category: ["UI/UX"],
         icon: <ExternalLink size={18} />,
-        image: "/assets/images/Rebite/Mockup.png",
+        image: "/assets/images/Rebite/MockUp.png",
     },
     {
         id: "Barier",
