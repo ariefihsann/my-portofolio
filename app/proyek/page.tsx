@@ -243,7 +243,7 @@ const baseProjects: Omit<Project, 'title' | 'description'>[] = [
         tags: ["Figma", "Flutter", "Dart", ".net"],
         category: ["UI/UX", "Mobile"],
         icon: <ExternalLink size={18} />,
-        image: "/assets/images/payro/MockUp.WebP",
+        image: "/assets/images/payro/MockUp.webp",
     },
     {
         id: "Payro-web",
